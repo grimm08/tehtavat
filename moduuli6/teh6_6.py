@@ -1,7 +1,8 @@
 import math
 def cal_pizza(x,y):
+    x= x/2
     red = math.pi*math.sqrt(x)
-    pris = red*y
+    pris = y/red
     return pris
 
 def komppi(x,y):
